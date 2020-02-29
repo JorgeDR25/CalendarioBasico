@@ -18,6 +18,8 @@ public class CalendarioApp extends Application {
 		
 		Scene loadScene = new Scene(controller.getView(), 800, 500);
 		
+		
+		System.out.println("Cambiar el nombre del archivo CSS a \"calendar\"");
 
 		primaryStage.setTitle("Calendario");
 		primaryStage.getIcons().add(new Image(this.getClass().getResource("/img/icon.png").toString()));

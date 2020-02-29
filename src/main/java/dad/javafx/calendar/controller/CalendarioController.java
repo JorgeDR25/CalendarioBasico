@@ -86,7 +86,7 @@ public class CalendarioController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		root.getStylesheets().add(getClass().getResource("/css/calendar.css").toExternalForm());
+//		root.getStylesheets().add(getClass().getResource("/css/calendar.css").toExternalForm());
 		year.set(Calendar.getInstance().get(Calendar.YEAR));
 		
 		//Bindings
